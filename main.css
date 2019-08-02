@@ -1,0 +1,333 @@
+/*
+
+nav-bar;
+
+carousel;
+
+about Us;
+
+Gallery;
+
+Contact Us;
+
+*/
+
+/*-- common calsses --*/
+.h1{
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+}
+
+.abtfnt
+{
+    font-family: 'Amaranth', sans-serif;
+    color:white;
+    font-size:50px;
+
+}
+
+/*-- common calsses end --*/
+
+
+/*----nav bar----*/
+#navBar
+{
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  border:none;
+}
+
+.hotel-nav-top
+{
+
+  padding-left: 50px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.hotel-nav-right
+{
+font-family: 'Slabo 27px', serif;
+}
+/*----nav bar end----*/
+
+
+/*-------- welcome ----------*/
+
+
+
+.hotel-after-car
+{
+
+  padding-left: 50px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+
+/*-------- welcome end----------*/
+
+/*----------about----------*/
+
+
+
+.prlx {
+    /* The image used */
+    background-image: url("intro/f1.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.8;
+
+}
+
+
+
+
+
+#abt {
+
+  color: white;
+  padding: 250px;
+
+}
+
+
+
+#abtmrg
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+/*---- gallery -----*/
+
+.prlxmidd {
+    /* The image used */
+    background-image: url("intro/f3.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    opacity: 0.8;
+
+}
+
+/*---- gallery end-----*/
+
+/*-----Grid-----*/
+
+#grid1{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.foodart
+{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 35px;
+}
+.h2
+{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.welcome-art
+{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
+}
+
+
+/*----------about end----------*/
+
+
+
+/*------After about paragraph---*/
+
+
+
+#Bbackclr
+{
+
+  padding: 200px;
+
+
+}
+
+
+#Bfont
+{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#welcome
+{
+font-family: 'Lobster', cursive;
+
+  font-size: 25px;
+}
+
+
+
+/*------After about paragraph---*/
+
+
+
+
+
+
+/* ------- Grid2 ------*/
+
+.abtpdd{
+  padding: 100px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("intro/f4.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.8;
+
+}
+
+
+.location-grid2
+{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 35px;
+}
+.location-details
+{
+  font-family: 'Nunito', sans-serif;
+}
+
+#links
+{
+  padding-top: : 10px;
+  color: black;
+  font-size: 2em;
+
+
+}
+
+/* ------- Grid2 end------*/
+
+
+
+
+/*--- contact fom ---*/
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#img
+{
+  padding-top: 5px;
+
+}
+
+
+
+
+.container1 {
+
+  margin:30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+
+
+}
+
+.contactfrm
+{
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-us
+{
+
+    padding: 50px;
+    font-family: 'Amaranth', sans-serif;
+    color:black;
+    font-size:35px;
+
+}
+
+
+
+.prlx-contact-us {
+    /* The image used */
+    background-image: url("intro/contactus_img.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.8;
+
+}
+/*--- contact fom -------*/
